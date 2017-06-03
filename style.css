@@ -1,0 +1,145 @@
+.bga.yaellow{
+    background: url("img/teams/yellow.svg") no-repeat center center;
+    background-size: contain;
+}
+
+.autocomplete-custom-template li,
+.autocomplete-pokemon-template li {
+    border-bottom: 1px solid #ccc;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: normal; }
+
+.autocomplete-custom-template li:last-child,
+.autocomplete-pokemon-template li:last-child {
+    border-bottom-width: 0; }
+
+.autocomplete-custom-template .item-title,
+.autocomplete-custom-template .item-metadata,
+.autocomplete-pokemon-template .item-title,
+.autocomplete-pokemon-template .item-metadata {
+    display: block;
+    line-height: 2; }
+
+.autocomplete-custom-template .item-title md-icon {
+    height: 18px;
+    width: 18px; }
+
+.autocomplete-pokemon-template .item-title md-icon {
+    height: 40px;
+    width: 40px; }
+
+
+
+#input-17::-webkit-input-placeholder,
+#input-17:-moz-placeholder,
+#input-17::-moz-placeholder,
+#input-17:-ms-input-placeholder,
+{
+    display: none;
+}
+
+h2#footerName {
+    width: 100%;
+    text-align: center;
+}
+
+md-icon.gridIcon {
+    width: 50%;
+    height: 30%; }
+.s64.gridIcon {
+    font-size: 64px; }
+.s32.gridIcon {
+    font-size: 48px; }
+ md-icon.fa.gridIcon {
+    display: block;
+    padding-left: 0; }
+  md-icon.s32.gridIcon span {
+    padding-left: 8px; }
+     md-grid-list {
+    margin: 8px; }
+  .gray {
+    background: #f5f5f5; }
+  .green {
+    background: #b9f6ca; }
+  .yellow {
+    background: #EF6C00; }
+  .blue {
+    background: #0097A7; }
+  .darkBlue {
+    background: #80d8ff; }
+  .deepBlue {
+    background: #448aff; }
+  .purple {
+    background: #b388ff; }
+  .lightPurple {
+    background: #455A64; }
+  .red {
+    background: #ff8a80; }
+  .pink {
+    background: #2E7D32; }
+ .md-grid-tile {
+    transition: all 300ms ease-out 50ms; }
+    md-grid-tile md-icon.gridIcon {
+        padding-bottom: 32px; }
+  md-grid-tile md-grid-tile-footer {
+    background: rgba(0, 0, 0, 0.68);
+    height: 36px; }
+  md-grid-tile-footer figcaption {
+    width: 100%; }
+  md-grid-tile-footer figcaption h3 {
+    margin: 0;
+    font-weight: 700;
+    width: 100%;
+    text-align: center; }
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*text-align: center;*/
+    /*color: white;*/
+    /*font-size: 4vw;;*/
+}
+
+#dexgrid md-fab-toolbar.md-right md-fab-trigger.align-with-text {
+    left: 7px; }
+
+#dexgrid .background .info{
+    width: 100%;
+    color: white;
+}
+
+#dexgrid .background div.info #cpCont{
+    position: absolute;
+    left: 25%;
+}
+
+#dexgrid .background div.info #hpCont{
+    position: absolute;
+    right: 25%;
+}
+
+#hp,
+#cp{
+    font-size:16px;
+}
+#hpVal,
+#cpVal{
+    font-size:24px;
+}
+
+.text-capitalize {
+    text-transform: capitalize; }
+ .md-fab:hover, .fabSpeedDialdemoBasicUsage .md-fab.md-focused {
+    background-color: #000 !important; }
+ p.note {
+    font-size: 1.2rem; }
+ .lock-size {
+    min-width: 300px;
+    min-height: 300px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; }
